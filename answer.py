@@ -21,7 +21,7 @@ def strings():
 
     # Assign a string "stevens" to a variable stevens.
 
-    stevens = 'stevens'
+    stevens = "stevens"
 
     # Repeat variable stevens 7 times and assign it to variable stevens_7.
 
@@ -33,7 +33,7 @@ def strings():
 
     # Concatenate variable stevens with string " is great" and assign it to variable great.
 
-    great = stevens + ' is great'
+    great = stevens + " is great"
 
     # Replace "great" with "good" in variable great and assign it to a new variable good.
 
@@ -79,9 +79,7 @@ def list_2D():
     #   second row is [6, 10, 11]
     #   third row is [12, 17, 38]
 
-    A =[[1, 4, 5],
-        [6, 10, 11],
-        [12, 17, 38]]
+    A =[[1, 4, 5],[6, 10, 11],[12, 17, 38]]
 
     # Collect the items in the last column of matrix A using list comprehension and assign it to a new variable last_column.
 
@@ -114,7 +112,7 @@ def dictionary():
     f = fruit_dict['fruit']
 
     # Increase the value that key "quantity" map to by 1.
-
+    fruit_dict['quantity'] = fruit_dict['quantity'] + 1
 
     return fruit_dict, f
 def dictionary_nested():
